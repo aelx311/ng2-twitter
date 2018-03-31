@@ -27,7 +27,7 @@
     "@types/jssha": "0.0.29",
     "jssha": "^2.2.0",
     "rxjs": "^5.5.0",
-    "zone.js": "0.8.10"
+    "zone.js": "0.8.22"
   },
   "repository": {
     "type": "git",
