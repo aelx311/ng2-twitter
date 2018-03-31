@@ -20,11 +20,13 @@
     "typescript": "^2.0.3"
   },
   "dependencies": {
-    "@angular/core": "4.1.0",
-    "@angular/http": "4.1.0",
+    "@angular/common": "5.2.9",
+    "@angular/core": "5.2.9",
+    "@angular/http": "5.2.9",
+    "@angular/platform-browser": "5.2.9",
     "@types/jssha": "0.0.29",
     "jssha": "^2.2.0",
-    "rxjs": "5.1.1",
+    "rxjs": "^5.5.0",
     "zone.js": "0.8.10"
   },
   "repository": {
