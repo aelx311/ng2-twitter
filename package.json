@@ -1,7 +1,7 @@
 {
-  "name": "ng2-twitter",
+  "name": "ng8-twitter",
   "version": "0.4.0",
-  "description": "Angular2 service of authorized request for twitter.",
+  "description": "Angular8 service of authorized request for twitter.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "keywords": [
     "twitter",
-    "angular2",
+    "angular8",
     "oauth"
   ],
   "author": "Alex Dehe Ng",
