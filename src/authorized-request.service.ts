@@ -1,9 +1,7 @@
 import {
-	Http,
-	Headers,
-	Response
-} from '@angular/http';
-import { Observable } from 'rxjs';
+	HttpClient,
+	HttpHeaders,
+} from '@angular/common/http';
 
 import {
 	OAuthService,
@@ -14,11 +12,11 @@ import {
 export class AuthorizedRequestService {
 	constructor(
 		private oauth: OAuthService,
-		private http: Http
+		private http: HttpClient
 	){}
 
 	get(url: string, query: any, oauthKey: OAuthKey, oauthToken: OAuthToken){
-		let authHeader = new Headers();
+		let authHeader = new HttpHeaders();
 		authHeader.append('Authorization',this.oauth.createHeaderString('GET',url,query,oauthKey,oauthToken,this.oauth.createNonce(10),this.oauth.createTimestamp()));
 
 		let requestUrl = url;
@@ -40,7 +38,7 @@ export class AuthorizedRequestService {
 	}
 
 	post(url: string, params: any, oauthKey: OAuthKey, oauthToken: OAuthToken){
-		let authHeader = new Headers();
+		let authHeader = new HttpHeaders();
 		authHeader.append('Content-Type','application/x-www-form-urlencoded');
 		authHeader.append('Authorization',this.oauth.createHeaderString('POST',url,params,oauthKey,oauthToken,this.oauth.createNonce(10),this.oauth.createTimestamp()));
 

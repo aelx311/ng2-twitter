@@ -1,10 +1,9 @@
-import { Http, Response } from '@angular/http';
-import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 import { OAuthKey, OAuthToken } from './oauth.service';
 export declare class TwitterService {
     private http;
     private authRequest;
-    constructor(http: Http);
-    get(url: string, query: any, oauthKey: OAuthKey, oauthToken: OAuthToken): Observable<Response>;
-    post(url: string, params: any, oauthKey: OAuthKey, oauthToken: OAuthToken): Observable<Response>;
+    constructor(http: HttpClient);
+    get(url: string, query: any, oauthKey: OAuthKey, oauthToken: OAuthToken): import("rxjs").Observable<Object>;
+    post(url: string, params: any, oauthKey: OAuthKey, oauthToken: OAuthToken): import("rxjs").Observable<Object>;
 }
