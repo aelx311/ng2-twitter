@@ -1,6 +1,6 @@
 {
   "name": "ng2-twitter",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Angular2 service of authorized request for twitter.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -14,24 +14,23 @@
     "angular2",
     "oauth"
   ],
-  "author": "Aoinu",
+  "author": "Alex Dehe Ng",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^2.0.3"
+    "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@angular/common": "5.2.9",
-    "@angular/core": "5.2.9",
-    "@angular/http": "5.2.9",
-    "@angular/platform-browser": "5.2.9",
-    "@types/jssha": "0.0.29",
-    "jssha": "^2.2.0",
-    "rxjs": "^5.5.0",
-    "zone.js": "0.8.22"
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "@angular/platform-browser": "^8.2.14",
+    "@types/jssha": "^2.0.0",
+    "jssha": "^2.3.1",
+    "rxjs": "^6.5.4",
+    "zone.js": "^0.10.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Aoinu/ng2-twitter.git"
+    "url": "https://github.com/aelx311/ng8-twitter.git"
   },
   "private": false
 }
