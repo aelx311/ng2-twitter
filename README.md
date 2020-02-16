@@ -1,10 +1,10 @@
-# ng2-twitter
+# ng8-twitter
 Angular2 service of authorized request for twitter.
 
 ## Installation
 Install through `npm`:
 
-`npm install --save ng2-twitter`
+`npm install --save ng8-twitter`
 
 ## Usage
 ```typescript
@@ -14,7 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { TwitterService } from 'ng2-twitter';
+import { TwitterService } from 'ng8-twitter';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,7 @@ export class AppModule { }
 
 ```typescript
 import { Component } from '@angular/core';
-import { TwitterService } from 'ng2-twitter';
+import { TwitterService } from 'ng8-twitter';
 
 @Component({
   selector: 'app-root',
