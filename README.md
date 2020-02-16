@@ -1,5 +1,5 @@
 # ng8-twitter
-Angular2 service of authorized request for twitter.
+Angular8 service of authorized request for twitter.
 
 ## Installation
 Install through `npm`:
